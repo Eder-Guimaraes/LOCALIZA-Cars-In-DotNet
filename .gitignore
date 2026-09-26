@@ -1,0 +1,51 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+
+# Rider / IntelliJ
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Test Results
+TestResults/
+
+# Coverage
+coverage/
+coverage-report/
+
+# Publish
+publish/
+
+# Generated files
+Generated/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Dotnet
+artifacts/
+
+# Environment
+.env
+.env.*
