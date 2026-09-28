@@ -5,6 +5,8 @@ namespace LOCALIZACarsInDotNet.Core.Entities;
 
 public class Rental
 {
+    internal int costumerId;
+
     public int Id { get; set; }
     
     public Costumer Costumer { get; set; }

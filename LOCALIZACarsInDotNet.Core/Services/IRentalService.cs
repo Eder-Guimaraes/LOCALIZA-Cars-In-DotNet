@@ -10,22 +10,12 @@ namespace LOCALIZACarsInDotNet.Core.Interfaces
     {
         void Create(Rental rental);
 
-        void Update(Rental rental);
-
-        void Delete(Rental rental);
-
-        Rental GetById(int rentalId);
-
-        List<Rental> GetByCostumerId(int costumerId);
-
-        List<Rental> GetAll();
+        void Cancel(Rental rental);
 
         decimal TotalValue(Rental rental);
 
         bool IsVehicleAvailable(int vehicleId);
 
         void FinishRental(int rentalId);
-
-        void CancelRental(int rentalId);
     }
 }
