@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
 using LOCALIZACarsInDotNet.Core.Entities;
 
-namespace LOCALIZACarsInDotNet.Core.Interfaces
+namespace LOCALIZACarsInDotNet.Core.Repositories.Interfaces
 {
     internal interface IRentalRepository
     {
